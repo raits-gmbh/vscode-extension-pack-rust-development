@@ -12,7 +12,7 @@
     "name": "rust-development",
     "displayName": "Rust Development Extension Pack",
     "description": "Extensions related to rust development",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -27,8 +27,10 @@
         "swellaby.vscode-rust-test-adapter",
         "matklad.rust-analyzer",
         "k--kato.docomment",
+        "panicbit.cargo",
         "serayuzgur.crates",
         "jscearcy.rust-doc-viewer",
-        "bungcip.better-toml"
+        "bungcip.better-toml",
+        "kevinkassimo.cargo-toml-snippets"
     ]
 }
