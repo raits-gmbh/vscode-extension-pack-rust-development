@@ -12,7 +12,7 @@
     "name": "rust-development",
     "displayName": "Rust Development Extension Pack",
     "description": "Extensions related to rust development",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -31,6 +31,8 @@
         "serayuzgur.crates",
         "jscearcy.rust-doc-viewer",
         "bungcip.better-toml",
-        "kevinkassimo.cargo-toml-snippets"
+        "kevinkassimo.cargo-toml-snippets",
+        "coenraads.bracket-pair-colorizer",
+        "vadimcn.vscode-lldb"
     ]
 }
