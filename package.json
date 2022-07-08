@@ -6,13 +6,18 @@
     },
     "publisher": "raits",
     "repository": {
-        "url": "https://github.com/raits-gmbh/vscode-extension-pack-angular-development"
+		"type": "git",
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development"
+    },
+    "bugs": {
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development/issues"
     },
     "license": "MIT",
     "name": "rust-development",
     "displayName": "Rust Development Extension Pack",
     "description": "Extensions related to rust development",
-    "version": "0.0.4",
+    "version": "0.0.5",
+	"homepage": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -20,19 +25,21 @@
         "Extension Packs"
     ],
     "keywords": [
-        "raits"
+        "raits",
+		"rust",
+		"cargo",
+		"toml",
+		"test",
+		"crate"
     ],
     "extensionPack": [ 
-        "rust-lang.rust",
+		"rust-lang.rust-analyzer",
         "swellaby.vscode-rust-test-adapter",
-        "matklad.rust-analyzer",
-        "k--kato.docomment",
         "panicbit.cargo",
         "serayuzgur.crates",
         "jscearcy.rust-doc-viewer",
-        "bungcip.better-toml",
+        "tamasfe.even-better-toml",
         "kevinkassimo.cargo-toml-snippets",
-        "coenraads.bracket-pair-colorizer",
         "vadimcn.vscode-lldb"
     ]
 }
