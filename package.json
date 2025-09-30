@@ -1,45 +1,45 @@
 {
-    "author": {
-        "name": "René André IT-Services GmbH",
-        "email": "info@raits.gmbh",
-        "url": "https://raits.gmbh/"
-    },
-    "publisher": "raits",
-    "repository": {
+	"author": {
+		"name": "René André IT-Services GmbH",
+		"email": "info@raits.gmbh",
+		"url": "https://raits.gmbh/"
+	},
+	"publisher": "raits",
+	"repository": {
 		"type": "git",
-        "url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development"
-    },
-    "bugs": {
-        "url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development/issues"
-    },
-    "license": "MIT",
-    "name": "rust-development",
-    "displayName": "Rust Development Extension Pack",
-    "description": "Extensions related to rust development",
-    "version": "0.0.5",
+		"url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development"
+	},
+	"bugs": {
+		"url": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development/issues"
+	},
+	"license": "MIT",
+	"name": "rust-development",
+	"displayName": "Rust Development Extension Pack",
+	"description": "Extensions related to rust development",
+	"version": "0.0.6",
 	"homepage": "https://github.com/raits-gmbh/vscode-extension-pack-rust-development",
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "keywords": [
-        "raits",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"keywords": [
+		"raits",
 		"rust",
 		"cargo",
 		"toml",
 		"test",
 		"crate"
-    ],
-    "extensionPack": [ 
+	],
+	"extensionPack": [
+		"fill-labs.dependi",
+		"jscearcy.rust-doc-viewer",
+		"kevinkassimo.cargo-toml-snippets",
+		"panicbit.cargo",
 		"rust-lang.rust-analyzer",
-        "swellaby.vscode-rust-test-adapter",
-        "panicbit.cargo",
-        "serayuzgur.crates",
-        "jscearcy.rust-doc-viewer",
-        "tamasfe.even-better-toml",
-        "kevinkassimo.cargo-toml-snippets",
-        "vadimcn.vscode-lldb"
-    ]
+		"swellaby.vscode-rust-test-adapter",
+		"tamasfe.even-better-toml",
+		"vadimcn.vscode-lldb"
+	]
 }
